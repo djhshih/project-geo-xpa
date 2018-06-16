@@ -1,0 +1,4 @@
+Basecalling was done by Illumina analysis pipeline CASAVA (version 1.8.2).
+The reads were mapped to the human genome (hg19) using TopHat (version 2.0.10).
+The number of fragments in each gene from the RefSeq database (downloaded from UCSC Genome Browser on July 17, 2015) was enumerated using htseq-count from the HTSeq software package (version 0.6.0).
+Genome_build: hg19
