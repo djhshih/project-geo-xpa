@@ -1,11 +1,19 @@
-GSM1820023	XPA 0J
-GSM1820024	XPA 0.5J 4hr
-GSM1820025	XPA 0.5J 12hr
-GSM1820026	XPV 0J
-GSM1820027	XPV 5J 4hr
-GSM1820028	XPV 5J 12hr
-GSM1820029	Normal 0J
-GSM1820030	Normal 0.5J 4hr
-GSM1820031	Normal 0.5J 12hr
-GSM1820032	Normal 5J 4hr
-GSM1820033	Normal 5J 12hr
+# uv_treatment: values in J/m^2
+# time: hours after treatment
+# xpa: + wildtype or proficient; - deficient
+# cell:
+#   NC-XPA1: Primary skin fibroblast derived from patient with Xeroderma pigmentosum type A (XPA deficiency)
+#   NC-XPV1: Primary skin fibroblast derived from patient with Xeroderma pigmentosum variant (POLH deficiency)
+#   NC-N1: Primary skin fibroblast derived from healthy individual
+sample_id	description	cell	cell_type	uv_treatment	time	xpa	malignant
+GSM1820023	XPA 0J	NC-XPA1	Skin fibroblast	0	0	-	FALSE
+GSM1820024	XPA 0.5J 4hr	NC-XPA1	Skin fibroblast	0.5	4	-	FALSE
+GSM1820025	XPA 0.5J 12hr	NC-XPA1	Skin fibroblast	0.5	12	-	FALSE
+GSM1820026	XPV 0J	NC-XPV1	Skin fibroblast	0	0	+	FALSE
+GSM1820027	XPV 5J 4hr	NC-XPV1	Skin fibroblast	5	4	+	FALSE
+GSM1820028	XPV 5J 12hr	NC-XPV1	Skin fibroblast	5	12	+	FALSE
+GSM1820029	Normal 0J	NC-N1	Skin fibroblast	0	0	+	FALSE
+GSM1820030	Normal 0.5J 4hr	NC-N1	Skin fibroblast	0.5	4	+	FALSE
+GSM1820031	Normal 0.5J 12hr	NC-N1	Skin fibroblast	0.5	12	+	FALSE
+GSM1820032	Normal 5J 4hr	NC-N1	Skin fibroblast	5	4	+	FALSE
+GSM1820033	Normal 5J 12hr	NC-N1	Skin fibroblast	5	12	+	FALSE
