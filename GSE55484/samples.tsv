@@ -6,20 +6,20 @@
 #     pigmentosum type A; GM04312
 #   XP20S-XPA: XP20S complemented with full length XPA cDNA (aka
 #     XP20S-pCAH19WS); GM15876A
-sample_id	description	cell	parental	cell_type	malignant
-GSM1337770	Fibroblast_GM969_shXPA_replicate-1	GM969-shXPA	GM969	Skin fibroblast	FALSE
-GSM1337771	Fibroblast_GM969_shXPA_replicate-2	GM969-shXPA	GM969	Skin fibroblast	FALSE
-GSM1337772	Fibroblast_GM969_shXPA_replicate-3	GM969-shXPA	GM969	Skin fibroblast	FALSE
-GSM1337773	Fibroblast_GM969_shXPA_replicate-4	GM969-shXPA	GM969	Skin fibroblast	FALSE
-GSM1337774	Fibroblast_GM969_scrambled_shXPA_replicate-1	GM969-shControl	GM969	Skin fibroblast	FALSE
-GSM1337775	Fibroblast_GM969_scrambled_shXPA_replicate-2	GM969-shControl	GM969	Skin fibroblast	FALSE
-GSM1337776	Fibroblast_GM969_scrambled_shXPA_replicate-3	GM969-shControl	GM969	Skin fibroblast	FALSE
-GSM1337777	Fibroblast_GM969_scrambled_shXPA_replicate-4	GM969-shControl	GM969	Skin fibroblast	FALSE
-GSM1337778	XPA-deficient (GM04312C) cell line_replicate-1	XP20S	XP20S	Skin fibroblast	FALSE
-GSM1337779	XPA-deficient (GM04312C) cell line_replicate-2	XP20S	XP20S	Skin fibroblast	FALSE
-GSM1337780	XPA-deficient (GM04312C) cell line_replicate-3	XP20S	XP20S	Skin fibroblast	FALSE
-GSM1337781	XPA-deficient (GM04312C) cell line_replicate-4	XP20S	XP20S	Skin fibroblast	FALSE
-GSM1337782	XPA+_(GM15876A)_cell_line_replicate-1	XP20S-XPA	XP20S	Skin fibroblast	FALSE
-GSM1337783	XPA+_(GM15876A)_cell_line_replicate-2	XP20S-XPA	XP20S	Skin fibroblast	FALSE
-GSM1337784	XPA+_(GM15876A)_cell_line_replicate-3	XP20S-XPA	XP20S	Skin fibroblast	FALSE
-GSM1337785	XPA+_(GM15876A)_cell_line_replicate-4	XP20S-XPA	XP20S	Skin fibroblast	FALSE
+sample_id	description	cell	parental	cell_type	malignant	xpa
+GSM1337770	Fibroblast_GM969_shXPA_replicate-1	GM969-shXPA	GM969	Skin fibroblast	FALSE	-
+GSM1337771	Fibroblast_GM969_shXPA_replicate-2	GM969-shXPA	GM969	Skin fibroblast	FALSE	-
+GSM1337772	Fibroblast_GM969_shXPA_replicate-3	GM969-shXPA	GM969	Skin fibroblast	FALSE	-
+GSM1337773	Fibroblast_GM969_shXPA_replicate-4	GM969-shXPA	GM969	Skin fibroblast	FALSE	-
+GSM1337774	Fibroblast_GM969_scrambled_shXPA_replicate-1	GM969-shControl	GM969	Skin fibroblast	FALSE	+
+GSM1337775	Fibroblast_GM969_scrambled_shXPA_replicate-2	GM969-shControl	GM969	Skin fibroblast	FALSE	+
+GSM1337776	Fibroblast_GM969_scrambled_shXPA_replicate-3	GM969-shControl	GM969	Skin fibroblast	FALSE	+
+GSM1337777	Fibroblast_GM969_scrambled_shXPA_replicate-4	GM969-shControl	GM969	Skin fibroblast	FALSE	+
+GSM1337778	XPA-deficient (GM04312C) cell line_replicate-1	XP20S	XP20S	Skin fibroblast	FALSE	-
+GSM1337779	XPA-deficient (GM04312C) cell line_replicate-2	XP20S	XP20S	Skin fibroblast	FALSE	-
+GSM1337780	XPA-deficient (GM04312C) cell line_replicate-3	XP20S	XP20S	Skin fibroblast	FALSE	-
+GSM1337781	XPA-deficient (GM04312C) cell line_replicate-4	XP20S	XP20S	Skin fibroblast	FALSE	-
+GSM1337782	XPA+_(GM15876A)_cell_line_replicate-1	XP20S-XPA	XP20S	Skin fibroblast	FALSE	+
+GSM1337783	XPA+_(GM15876A)_cell_line_replicate-2	XP20S-XPA	XP20S	Skin fibroblast	FALSE	+
+GSM1337784	XPA+_(GM15876A)_cell_line_replicate-3	XP20S-XPA	XP20S	Skin fibroblast	FALSE	+
+GSM1337785	XPA+_(GM15876A)_cell_line_replicate-4	XP20S-XPA	XP20S	Skin fibroblast	FALSE	+
