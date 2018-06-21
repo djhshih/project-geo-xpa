@@ -146,9 +146,12 @@ ggplot(z.sel.cmean.df, aes(x=sample_id, y=value)) +
 map_probe_to_gene <- function(x, annot.db) {
 	probes <- rownames(x);
 	genes <- mapIds(annot.db, keys=probes, column="SYMBOL", keytype="PROBEID");
+
+	# aggregate probes to gene by mean
 	x.g <- aggregate(x, list(genes), mean);
 	rownames(x.g) <- x.g[,1];
 	x.g <- x.g[,-1];
+
 	as.matrix(x.g)
 }
 
